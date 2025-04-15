@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import EngineeringManufacturingPage from '../pages/EngineeringManufacturingPage ';
+
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Brand */}
           <a className="navbar-brand d-flex align-items-center text-danger fw-semibold text-uppercase" href="/">
             <img
-              src="/images/logo.png"
+              src=""
               alt="JK Logo"
               width="40"
               height="40"
@@ -102,8 +102,8 @@ const Navbar = () => {
                   Careers
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="careersDropdown">
-                  <li><Link className="dropdown-item" to="/careers/openings">Job Openings</Link></li>
-                  <li><Link className="dropdown-item" to="/careers/internships">Internships</Link></li>
+                  <li><Link className="dropdown-item" to="/careers/Hiretalent">Hiretalent</Link></li>
+                  <li><Link className="dropdown-item" to="/careers/Find-a-job">Find-a-job</Link></li>
                 </ul>
               </li>
 

@@ -22,9 +22,12 @@ import Casestudies from './pages/Casestudies';
 
 //  carrer
 
-import Jobopenings from './pages/Jobopenings';
-import Internships from './pages/Internships';
+import Hiretalent from './pages/Hiretalent';
+import FindAjob from './pages/FindAjob';
 
+// contact
+
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -55,11 +58,13 @@ function App() {
 
         {/* carrear */}
 
-        <Route path="/Careers/Jobopenings" element={<Jobopenings />} />
+        <Route path="/Careers/Hiretalent" element={<Hiretalent />} />
+        <Route path="/Careers/Find-a-job" element={<FindAjob />} />
 
-        <Route path="/Careers/Internships" element={<Internships />} />
 
-
+        {/* contact */}
+       
+        <Route path="/Contact" element={<Contact />} />
 
       </Routes>
       <Footer />

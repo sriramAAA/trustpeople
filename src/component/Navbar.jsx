@@ -55,9 +55,9 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-dark" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link className="nav-link dropdown-toggle text-dark" to="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
                   <li><Link className="dropdown-item" to="/services/engineering-manufacturing">Engineering & Manufacturing</Link></li>
                   <li><Link className="dropdown-item" to="/services/staff-augmentation">Staff Augmentation</Link></li>
@@ -75,8 +75,8 @@ const Navbar = () => {
                     About Us
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
-                    <li><a className="dropdown-item" href="/about/vision">Our Vision</a></li>
-                    <li><a className="dropdown-item" href="/about/team">Our Team</a></li>
+                    <li><Link className="dropdown-item" to="/about/vision">Our Vision</Link></li>
+                    <li><Link className="dropdown-item" to="/about/team">Our Team</Link></li>
                   </ul>
                 </li>
 
@@ -86,13 +86,13 @@ const Navbar = () => {
                     Careers
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="careersDropdown">
-                    <li><a className="dropdown-item" href="/careers/openings">Job Openings</a></li>
-                    <li><a className="dropdown-item" href="/careers/internships">Internships</a></li>
+                    <li><Link className="dropdown-item" to="/careers/openings">Job Openings</Link></li>
+                    <li><Link className="dropdown-item" to="/careers/internships">Internships</Link></li>
                   </ul>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="/contact">Contact</a>
+                  <Link className="nav-link text-dark" to="/contact">Contact</Link>
                 </li>
             </ul>
           </div>

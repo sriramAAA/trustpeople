@@ -65,35 +65,51 @@ const Navbar = () => {
                   <li><Link className="dropdown-item" to="/services/hire-train-deploy">Hire-Train-Deploy</Link></li>
                   <li><Link className="dropdown-item" to="/services/health-care-staffing">Healthcare Staffing Solutions</Link></li>
                 </ul>
-                </li>
-                {/* Services */}
+              </li>
+              {/* Services */}
 
 
-                {/* About Us */}
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About Us
-                  </a>
-                  <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
-                    <li><Link className="dropdown-item" to="/about/vision">Our Vision</Link></li>
-                    <li><Link className="dropdown-item" to="/about/team">Our Team</Link></li>
-                  </ul>
-                </li>
+              {/* About Us */}
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
 
-                {/* Careers */}
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle text-dark" href="#" id="careersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Careers
-                  </a>
-                  <ul className="dropdown-menu" aria-labelledby="careersDropdown">
-                    <li><Link className="dropdown-item" to="/careers/openings">Job Openings</Link></li>
-                    <li><Link className="dropdown-item" to="/careers/internships">Internships</Link></li>
-                  </ul>
-                </li>
+                  <li className="nav-item">
+                    <Link className="nav-link text-dark" to="/services/Who-we-are">Who We Are</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link text-dark" to="/services/Industries">Industries</Link>
 
-                <li className="nav-item">
-                  <Link className="nav-link text-dark" to="/contact">Contact</Link>
-                </li>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link text-dark" to="/services/Blogs">Blogs</Link>
+
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link text-dark" to="/services/Casestudies">Case Studies</Link>
+
+                  </li>
+
+
+                </ul>
+              </li>
+
+              {/* Careers */}
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle text-dark" href="#" id="careersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="careersDropdown">
+                  <li><Link className="dropdown-item" to="/careers/openings">Job Openings</Link></li>
+                  <li><Link className="dropdown-item" to="/careers/internships">Internships</Link></li>
+                </ul>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link text-dark" to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>

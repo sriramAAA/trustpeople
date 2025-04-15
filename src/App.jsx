@@ -13,8 +13,10 @@ import Healthcarestaffing from './pages/Healthcarestaffing ';
 
 // about us
 
-import Ourteam from './pages/Ourteam';
-import Ourvision from './pages/Ourvision';
+import Whoweare from './pages/Whoweare';
+import Industries from './pages/Industries';
+import Blogs from './pages/Blogs';
+import Casestudies from './pages/Casestudies';
 
 
 
@@ -40,8 +42,15 @@ function App() {
 
         {/* about  */}
 
-        <Route path="/services/Our-vision" element={<Ourvision />} />
-        <Route path="/services/Our-team" element={<Ourteam />} />
+        <Route path="/services/Who-we-are" element={<Whoweare />} />
+        <Route path="/services/Industries" element={<Industries />} />
+        <Route path="/services/Blogs" element={<Blogs />} />
+        <Route path="/services/Casestudies" element={<Casestudies />} />
+
+
+
+
+
 
 
         {/* carrear */}

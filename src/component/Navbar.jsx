@@ -63,7 +63,7 @@ const Navbar = () => {
                   <li><Link className="dropdown-item" to="/services/staff-augmentation">Staff Augmentation</Link></li>
                   <li><Link className="dropdown-item" to="/services/managed-services">Managed Services</Link></li>
                   <li><Link className="dropdown-item" to="/services/hire-train-deploy">Hire-Train-Deploy</Link></li>
-                  <li><Link className="dropdown-item" to="/services/healthcare-staffing">Healthcare Staffing Solutions</Link></li>
+                  <li><Link className="dropdown-item" to="/services/health-care-staffing">Healthcare Staffing Solutions</Link></li>
                 </ul>
                 </li>
                 {/* Services */}

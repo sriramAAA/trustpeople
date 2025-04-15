@@ -14,7 +14,7 @@ import Healthcarestaffing from './pages/Healthcarestaffing ';
 // about us
 
 import Ourteam from './pages/Ourteam';
- import Ourvision from './pages/Ourvision';
+import Ourvision from './pages/Ourvision';
 
 
 
@@ -32,26 +32,26 @@ function App() {
         <Route path="/" element={<Home />} />
 
         {/* services  */}
-         <Route path="/services/engineering-manufacturing" element={<EngineeringManufacturingPage/>} />
-         <Route path="/services/Staff-Augmentation" element={<Staffaugmentation/>} />
-         <Route path="/services/Managed-Services" element={<Managedservices/>} />
-         <Route path="/services/Hire-train-deploy" element={<Hiretraindeploy/>} />
-         <Route path="/services/Health-care-staffing" element={<Healthcarestaffing/>} />
-        
-{/* about  */}
+        <Route path="/services/engineering-manufacturing" element={<EngineeringManufacturingPage />} />
+        <Route path="/services/Staff-Augmentation" element={<Staffaugmentation />} />
+        <Route path="/services/Managed-Services" element={<Managedservices />} />
+        <Route path="/services/Hire-train-deploy" element={<Hiretraindeploy />} />
+        <Route path="/services/Health-care-staffing" element={<Healthcarestaffing />} />
 
-<Route path="/services/Our-vision" element={<Ourvision/>} />
-<Route path="/services/Our-team" element={<Ourteam/>} />
+        {/* about  */}
 
-
-{/* carrear */}
-
-<Route path="/Careers/Jobopenings" element={<Jobopenings/>} />
-
-<Route path="/Careers/Internships" element={<Internships/>} />
+        <Route path="/services/Our-vision" element={<Ourvision />} />
+        <Route path="/services/Our-team" element={<Ourteam />} />
 
 
-       
+        {/* carrear */}
+
+        <Route path="/Careers/Jobopenings" element={<Jobopenings />} />
+
+        <Route path="/Careers/Internships" element={<Internships />} />
+
+
+
       </Routes>
       <Footer />
     </Router>

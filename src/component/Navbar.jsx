@@ -28,7 +28,7 @@ const Navbar = () => {
               className="me-2 rounded-circle"
               onError={(e) => { e.target.src = "https://via.placeholder.com/40"; }}
             />
-            JK Company
+            JK Company tvm
           </a>
 
           {/* Toggler */}
